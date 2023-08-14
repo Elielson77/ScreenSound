@@ -1,0 +1,14 @@
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\bin\Debug\net7.0\ScreenSound.exe
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\bin\Debug\net7.0\ScreenSound.deps.json
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\bin\Debug\net7.0\ScreenSound.runtimeconfig.json
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\bin\Debug\net7.0\ScreenSound.dll
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\bin\Debug\net7.0\ScreenSound.pdb
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\obj\Debug\net7.0\ScreenSound.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\obj\Debug\net7.0\ScreenSound.AssemblyInfoInputs.cache
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\obj\Debug\net7.0\ScreenSound.AssemblyInfo.cs
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\obj\Debug\net7.0\ScreenSound.csproj.CoreCompileInputs.cache
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\obj\Debug\net7.0\ScreenSound.dll
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\obj\Debug\net7.0\refint\ScreenSound.dll
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\obj\Debug\net7.0\ScreenSound.pdb
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\obj\Debug\net7.0\ScreenSound.genruntimeconfig.cache
+c:\Users\eliel\dev\estudos\alura\ScreenSound03-projeto-inicial\ScreenSound\obj\Debug\net7.0\ref\ScreenSound.dll
