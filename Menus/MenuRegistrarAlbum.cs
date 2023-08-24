@@ -6,7 +6,7 @@ namespace ScreenSound.Menus
     {
         public override void Executar(Dictionary<string, Banda> bandasRegistradas)
         {
-            Console.Clear();
+            base.Executar(bandasRegistradas);
             ExibirTituloDaOpcao("Registro de álbuns");
             Console.Write("Digite a banda cujo álbum deseja registrar: ");
             string nomeDaBanda = Console.ReadLine()!;
