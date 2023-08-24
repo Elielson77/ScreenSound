@@ -1,7 +1,6 @@
 ﻿using ScreenSound.Menus;
 using ScreenSound.Models;
 
-
 Banda AvengedSevenfold = new("Avenged Sevenfold");
 AvengedSevenfold.AdicionarNota(new Avaliacao(10));
 AvengedSevenfold.AdicionarNota(new Avaliacao(10));
@@ -15,7 +14,15 @@ Dictionary<string, Banda> bandasRegistradas = new(){
 { MrBungle.Nome, MrBungle }
 };
 
-
+Dictionary<int, Menu> menus = new()
+{
+    { 1, new MenuRegistrarBanda() },
+    { 2, new MenuRegistrarAlbum() },
+    { 3, new MenuMostrarBandas() },
+    { 4, new MenuAvaliarBanda() },
+    { 5, new MenuExibirDetalhes() },
+    { -1, new MenuSair() }
+};
 
 void ExibirLogo()
 {
@@ -44,36 +51,13 @@ void ExibirOpcoesDoMenu()
     string opcaoEscolhida = Console.ReadLine()!;
     int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
 
-    switch (opcaoEscolhidaNumerica)
+    if (menus.ContainsKey(opcaoEscolhidaNumerica))
     {
-        case 1:
-            MenuRegistrarBanda menu1 = new();
-            menu1.Executar(bandasRegistradas);
-            break;
-        case 2:
-            MenuRegistrarAlbum menu2 = new();
-            menu2.Executar(bandasRegistradas);
-            break;
-        case 3:
-            MenuMostrarBandas menu3 = new();
-            menu3.Executar(bandasRegistradas);
-            break;
-        case 4:
-            MenuAvaliarBanda menu4 = new();
-            menu4.Executar(bandasRegistradas);
-            break;
-        case 5:
-            MenuExibirDetalhes menu5 = new();
-            menu5.Executar(bandasRegistradas);
-            ExibirOpcoesDoMenu();
-            break;
-        case -1:
-            MenuSair menu6 = new();
-            menu6.Executar();
-            break;
-        default:
-            Console.WriteLine("Opção inválida");
-            break;
+        menus[opcaoEscolhidaNumerica].Executar(bandasRegistradas);
+        if (opcaoEscolhidaNumerica > 0) ExibirOpcoesDoMenu();
+    } else 
+    {
+         Console.WriteLine("Opção inválida");
     }
 }
 

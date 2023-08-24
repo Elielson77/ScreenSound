@@ -1,6 +1,6 @@
 ﻿namespace ScreenSound.Menus
 {
-    internal class MenuSair
+    internal class MenuSair : Menu
     {
         public void Executar()
         {
