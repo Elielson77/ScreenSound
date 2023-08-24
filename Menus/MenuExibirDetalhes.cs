@@ -15,9 +15,12 @@ namespace ScreenSound.Menus
             {
                 Banda notasDaBanda = bandasRegistradas[nomeDaBanda];
                 Console.WriteLine($"\nA média da banda {nomeDaBanda} é {notasDaBanda.Media}.");
-                /**
-                * ESPAÇO RESERVADO PARA COMPLETAR A FUNÇÃO
-                */
+
+                foreach (Album album in notasDaBanda.Albuns)
+                {
+                    Console.WriteLine($"O álbum {album.Nome} tem média {album.Media}.");
+                }
+
                 Console.WriteLine("Digite uma tecla para votar ao menu principal");
                 Console.ReadKey();
                 Console.Clear();
